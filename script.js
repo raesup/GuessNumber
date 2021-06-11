@@ -31,7 +31,7 @@ function createAnswer() {
 const checkNumber = (data) => {
   score--;
   if (data > numberAnswer) {
-    result.innerHTML = "Too High!";
+    result.innerText = "Too High!";
   } else if (data < numberAnswer) {
     result.innerHTML = "Too Low!";
   } else {
